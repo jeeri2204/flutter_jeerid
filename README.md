@@ -1,16 +1,38 @@
-# flutter_droidcon
+# Build an offline first cross-platform web and mobile apps with Flutter and AWS Amplify
+
 
 A new Flutter project.
 
-## Getting Started
+## Pre-requisites
 
-This project is a starting point for a Flutter application.
+- [Install Flutter](https://docs.flutter.dev/get-started/install)
+- [Install AWS Amplify CLI](https://docs.amplify.aws/cli/start/install/#install-the-amplify-cli)
+- [Install Android Studio](https://developer.android.com/studio?gclid=Cj0KCQjw5-WRBhCKARIsAAId9FkBunOt81NLUOrVgkdsNvEnzcFDFaqCWppt6ASiBZOs_KJx1V2u0sYaArIuEALw_wcB&gclsrc=aw.ds)
+- [Install IOS Emulator](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 
-A few resources to get you started if this is your first Flutter project:
+## Steps
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Clone the repository 
+- git clone https://github.com/jeeri2204/flutter_jeerid.git
+- cd flutter_jeerid
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Install the necessary packages
+- flutter pub get
+
+### Initialize AWS Amplify
+- amplify init
+
+### Add AWS Amplify DataStore Feature
+- amplify api add
+
+### Add AWS Amplify Authentication Feature
+- amplify auth add
+
+### Add AWS Amplify Storage Feature
+- amplify storage add
+
+### Add AWS Amplify Analytics Feature
+- amplify analytics add
+
+### Push the Data to AWS Amplify
+- amplify push
