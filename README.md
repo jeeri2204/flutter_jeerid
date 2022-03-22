@@ -1,8 +1,6 @@
 # Build an offline first cross-platform web and mobile apps with Flutter and AWS Amplify
 
 
-A new Flutter project.
-
 ## Pre-requisites
 
 - [Install Flutter](https://docs.flutter.dev/get-started/install)
